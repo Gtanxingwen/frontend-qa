@@ -1,0 +1,6 @@
+node_modules
+dist
+TODOs.md
+*.log
+temp
+.idea
