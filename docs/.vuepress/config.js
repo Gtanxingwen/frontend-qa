@@ -11,16 +11,19 @@ module.exports = {
     editLinkText: 'Suggest changes to this page',
 
     nav: [
-      { text: 'Guide', link: '/guide/' },
-      { text: 'Config', link: '/config/' }
+      { text: '前端', link: '/guide/' },
+      { text: '编程题', link: '/code/' },
+      { text: '计算机基础', link: '/computer/' }
     ],
 
 
     sidebar: {
-      '/config/': 'auto',
+      '/computer/': 'auto',
+      '/code/': 'auto',
       '/guide/': [
         '',
-        'one'
+        'js',
+        'react'
       ]
     }
   }
